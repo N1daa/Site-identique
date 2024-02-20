@@ -1,0 +1,171 @@
+p {
+    color:  blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    font-style: italic;
+}
+.class1 {
+    color: red;
+}
+/* 400 est la taille de base du texte */
+.texte1 {
+    font-weight: 900;
+    text-decoration: underline;
+    text-shadow: 6px 6px 15px black;
+
+}
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(59, 63, 63);
+    padding: px;
+    background-image: url(ciel.png);
+    background-attachment:local;
+    background: linear-gradient(to left, rgb(255, 124, 146), pink);
+    opacity: 0.8;
+    border: double 3px grey;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 6px 6px 15px black;
+}
+h2 {
+    border: solid 2px yellowgreen
+}
+body {
+    background-color: rgba(255, 255, 255, 0.411);
+}
+img:hover {
+    opacity: 0.7;
+}
+/* au survol */
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+/* au clic */
+a:active {
+    text-decoration-color: red;
+}
+/* a la selection */
+a:focus {
+    background-color: blue;
+    color: red;
+    outline-color: green;
+}
+/* a revenir dessus */
+img:hover + h2 {
+    color:rgb(23, 168, 71);
+}
+.banner {
+    /* largeur */
+    width: 500px;
+    /* hauteur */
+    height: 90px;
+    margin: auto;
+    padding: 20px;
+}
+.conteneur {
+    /* rend la disposition modifiable */
+    display: flex;
+    /* direction d'alignement */
+    flex-direction:column;
+    /* dispatche proprement */
+    justify-content:first baseline;
+    align-items: center;
+    height: 100px;
+    flex-wrap: wrap;
+    /* ajoute de l'espace entre les éléments */
+    gap: 10px;
+}
+.one {
+    order: 1;
+    border: solid 2px;
+    /* taille interieur */
+    padding: 3px;
+    grid-column-start: 1;
+}
+.two {
+    order: 2;
+    border: solid 2px;
+    /* taille interieur */
+    padding: 3px;
+}
+.three {
+    order: 3;
+    border: solid 2px;
+    /* taille interieur */
+    padding: 3px;
+}
+.four {
+    order: 4;
+    border: solid 2px;
+    /* taille interieur */
+    padding: 3px;
+}
+.five {
+    order: 5;
+    border: solid 2px;
+    /* taille interieur */
+    padding: 3px;
+}
+.six {
+    order: 6;
+    border: solid 2px;
+    /* taille interieur */
+    padding: 3px;
+}
+.deuxieme {
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
+    height: 25px;
+    margin-left: 0px;
+    /* devenir un bloc */
+    display: block;
+    width: 150px;
+    height: 25px;
+/* display: none; fait devenir invisible */
+}
+.conteneur2 {
+    display:content;
+    margin: ;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 150px;
+    gap: 20px;
+}
+td {
+    border: solid 2px black;
+}
+/* Sert à lié les colones du tableau */
+table {
+    border-collapse: collapse;
+}
+table {
+    margin: auto;
+}
+caption {
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+}
+input {
+    padding: 8px;
+    border: 2px solid  black;
+    outline: none;
+    border-radius: 10px;
+}
+.positiondutitre {
+}
+fieldset {
+    background-color: #BAC9CE;
+    border-radius: 10px;
+}
+legend {
+    background-color: white;
+}
